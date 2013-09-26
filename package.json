@@ -1,7 +1,7 @@
 {
   "name": "grunt-sg",
   "description": "Grunt plugin to generate KSS style documentation",
-  "version": "0.1.1",
+  "version": "0.1.1.1",
   "homepage": "https://github.com/robtarr/grunt-sg",
   "author": {
     "name": "Rob Tarr",
@@ -35,7 +35,7 @@
     "grunt": "~0.4.1"
   },
   "dependencies": {
-    "styleguide": "~0.1.0"
+    "styleguide": "~0.1.1"
   },
   "peerDependencies": {
     "grunt": "~0.4.1"
