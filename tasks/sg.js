@@ -18,9 +18,9 @@ module.exports = function(grunt) {
       css: path.resolve(this.options().css),
       html: path.resolve(this.options().html),
       dest: path.resolve(this.options().dest),
-      js: this.options().js || "";
-      logo: this.options().logo || "";
-      syntax: this.options().syntax || "github";
+      js: this.options().js || "",
+      logo: this.options().logo || "",
+      syntax: this.options().syntax || "github"
     };
 
     if(this.options().data) {
