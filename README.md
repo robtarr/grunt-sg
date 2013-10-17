@@ -30,16 +30,27 @@ In your project's Gruntfile, add a section named `sg` to the data object passed 
 				data: '.yml file dir'
         html: 'partial dir'
         dest: 'target dir'
+        project_css: 'name of css file for project'
+        syntax: 'theme name'
+        logo: 'logo file'
+        js: 'js file or array of js files'
 ```
 
 ### Required Options
 * CSS
 * HTML
 * Dest
+* Project CSS
 
 ### Optional Options
+* JS
+    * optional js that runs in styleguide
+* Logo
+    * logo file for project
+* Syntax Theme
+    * Syntax theme for code snippets in styleguide, [see options here](http://softwaremaniacs.org/media/soft/highlight/test.html)
 * Data
-The data option specifies the location of YAML files to load in datasets into the style guide. Handlebars files are then required instead of HTML files in the HTML dir.
+    * The data option specifies the location of YAML files to load in datasets into the style guide. Handlebars files are then required instead of HTML files in the HTML dir.
 
 ## Release History
 _(Nothing yet)_
