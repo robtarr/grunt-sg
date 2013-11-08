@@ -27,7 +27,7 @@ In your project's Gruntfile, add a section named `sg` to the data object passed 
     default_options:
       options:
         css:  'sass dir'
-				data: '.yml file dir'
+	data: '.yml file dir'
         html: 'partial dir'
         dest: 'target dir'
         project_css: 'name of css file for project'
